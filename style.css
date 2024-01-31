@@ -1,0 +1,392 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    padding: 40px;
+}
+.div-img{
+    width: 1320px;
+    height: 600px;
+    border-radius: 10px;
+    background-image: url("./image/Rectangle 14.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.text{
+    text-align: center;
+    margin-top: -375px;
+    font-size: 38px;
+    color: #fff;
+}
+.text2{
+    text-align: center;
+    color: red;
+    margin-top: 100px;
+    font-size: 30px;
+}
+.image{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+/*** 1 */
+.image2 img{
+    width: 100%;
+}
+.child1{
+    margin-left: 150px;
+    margin-top: -470px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+.text3{
+    width: 70%;
+}
+.text3 h1{
+    font-size: 5rem;
+}
+.text3 button{
+    background-color: transparent;
+    width: 100px;
+    height: 30px;
+    border: none;
+    color: #fff;
+    font-size: 17px;
+    cursor: pointer;
+    margin-top: 50px;
+}
+.image3{
+    width: 40%;
+}
+.image3 img{
+    width: 70%;
+}
+/*** 2 */
+.fill{
+    width: 100%;
+    height: 400px;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    text-align: center;
+}
+.text4{
+    color: red;
+    text-align: center;
+    line-height: 55px;
+    padding-top: 80px;
+
+}
+.text4 span{
+    color: #000;
+}
+
+.button1{
+    background-color: red;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    font-size: 17px;
+    cursor: pointer;
+}
+/*** 3 */
+.div3{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.divA span{
+    color: red;
+    font-size: 20px;
+}
+.divA h1{
+    font-size: 48px;
+}
+.divC span{
+    color: red;
+    font-size: 20px;
+}
+.img{
+    border: 10px solid red;
+    border-radius: 50%;
+    padding: 30px;
+    width: 330px;
+}
+/*** 4 */
+
+.text5{
+    text-align: center;
+}
+
+.text5 h1{
+    font-size: 4rem;
+}
+
+.text5 p{
+    font-size: 20px;
+}
+.image4{
+    display: flex;
+}
+.img2{
+    width: 50%;
+    margin: 0 0 0 -583px;
+    height: 50%;
+    z-index: -1000;
+}
+
+.img3{
+    width: 100%;
+}
+/*** 5 */
+.image5{
+    width: 100%;
+}
+
+.one11{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.one11 img{
+    width: 32%;
+}
+.two22{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.two22 img{
+    width: 32%;
+}
+.text6 p{
+    font-size: 20px;
+}
+.text6 h1{
+    font-size: 3rem;
+}
+/*** 6 */
+.email{
+    background-color: rgba(255, 0, 0, 0.05);
+    width: 100%;
+    height: 616px;
+    text-align: center;
+    padding-top: 150px;
+    border-radius: 16px;
+}
+
+.email h1{
+    font-size: 4rem;
+}
+.email input{
+    height: 50px;
+    width: 300px;
+    border: none;
+    padding: 10px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+.email button{
+    height: 50px;
+    width: 100px;
+    border: none;
+    border-top-right-radius: 50px;
+    background-color: red;
+    color: #fff;
+    border-bottom-right-radius: 50px;
+}
+/*** 7 */
+
+.footer{
+    width: 100%;
+    height: 609px;
+    background: #000;
+    color: #fff;
+    padding: 150px;
+}
+.footer1{
+    display: flex;
+    justify-content: space-between;
+}
+.text-footer1{
+    font-size: 25px;
+
+}
+.text-footer2 p{
+    margin-left: 10px;
+}
+.point{
+    display: flex;
+    font-size: 25px;
+}
+.point2{
+    display: flex;
+    font-size: 25px;
+}
+.footer2{
+    width: 100%;
+    height: 203px;
+    text-align: center;
+    padding: 0 340px 0 340px;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    display: flex;
+    justify-content: space-around;
+}
+.text-footer p{
+    font-size: 25px;
+}
+/*** 8 */
+
+
+@media(max-width: 426px) {
+    .div-img{
+        width: 100%;
+        height: 620px;
+        margin-top: -230px;
+    }
+    .text{
+        font-size: 13px;
+        color: #ffffff;
+        
+    }
+    .text2{
+        font-size: 13px;
+       margin-top: -3px;
+    }
+    .text3{
+        margin-top: -150px;
+    }
+    .text3 button{
+        font-size: 13px;
+    }
+    .text4{
+        font-size: 10px;
+    }
+    .text5 h1{
+        font-size: 27px;
+    }
+    .text5 h3{
+        font-size: 13px;
+    }
+    .text5 p{
+        font-size: 9px;
+    }
+    .text5{
+        font-size: 13px;
+    }
+    .text6{
+        font-size: 13px;
+    }
+    .text6 p{
+        font-size: 13px;
+    }
+    .text6 h1{
+        font-size: 27px;
+    }
+    .text3 h1{
+        margin-top: 10px;
+        font-size: 27px;
+    }
+    .text3 p{
+        font-size: 7px;
+    }
+    .text3 button{
+        margin: 0 0 0 -30px;
+        font-size: 8px;
+    }
+    .image img{
+        width: 100%;
+    }
+    .image3{
+        margin-top: -140px;
+    }
+    .child1{
+        margin-top: 0;
+        margin-left: 10px;
+    }
+    .divA{
+        font-size: 8px;
+    }
+    .divA h1{
+        font-size: 27px;
+    }
+    .divA h3{
+        font-size: 15px;
+    }
+    .img{
+        width: 100%;
+        height: auto;
+        padding: 10px;
+    }
+    .img3{
+        width: 100%;
+    }
+    .img2{
+        width: 50%;
+        margin: -15px 0 0 -173px;
+    }
+    .divC{
+        font-size: 8px;
+    }
+    .divC h1{
+        font-size: 27px;
+    }
+    .divC img{
+        width: 100%;
+    }
+    .email h1{
+        font-size: 27px;
+    }
+    .email p{
+        font-size: 6px;
+    }
+    .email {
+        
+        height: 316px;
+    }
+    .email img{
+        margin-top: -100px;
+        width: 30%;
+    }
+    .email input{
+        height: 35px;
+        width: 170px;
+    }
+    .email button{
+        height: 35px;
+    }
+    .text-footer1{
+        font-size: 13px;
+    }
+    .footer{
+        padding: 50px;
+        height: 339px;
+    }
+    .footer2{
+        width: 100%;
+        height: 100px;
+        padding: 20px;
+    }
+    .footer2 img{
+        width: 50px;
+        height: 50px;
+    }
+    .text-footer2 p{
+        
+        font-size: 13px;
+    }
+    .text-footer p{
+        
+        font-size: 13px;
+    }
+}
